@@ -43,7 +43,7 @@ Nella schermata iniziale dell'app aggiungi un pulsante ben visibile (es. "🖨 S
 - Alla fine, riassumi: cosa ho da stampare (file, numero di fogli), cosa devo tagliare, quali token fisici mi servono e che cosa ho lasciato fuori o in dubbio.
 
 ### Riferimento
-Ho già fatto la stessa cosa per un altro mio gioco, Cromozapd (repository `olivieridomenicopodcast/cromozapd-`, branch `ccr-5b3c90aa-gh0360`). Se riesci ad accedervi, guarda come l'ho fatto lì e prendilo come modello, adattandolo a questo gioco senza copiarlo alla cieca:
+Ho già fatto la stessa cosa per un altro mio gioco, Cromozapd (repository `olivieridomenicopodcast/cromozapd-`, branch `ccr-5b3c90aa-gh0360`). Se riesci ad accedervi (in **sola lettura**: non va mai modificato, niente commit, push, branch, PR o issue su di esso), guarda come l'ho fatto lì e prendilo come modello, adattandolo a questo gioco senza copiarlo alla cieca:
 - `tools/build-print.js`: lo script che genera tutto (carte 3×3 con segni di taglio, retro specchiato, tabellone, zone, plance, PDF via Playwright);
 - `stampa/index.html`: la pagina di istruzioni con i link ai PDF;
 - `js/ui/sprites.js`: come sono disegnate in codice le carte (SVG con rapporto 100×140, uguale a quello poker);
